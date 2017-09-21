@@ -43,14 +43,14 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
      * (http://www.buzzingandroid.com/tools/android-layout-finder)
      */
     private void findViews() {
-        appbar = (AppBarLayout)findViewById( R.id.appbar );
-        collapsing = (CollapsingToolbarLayout)findViewById( R.id.collapsing );
-        coverImage = (ImageView)findViewById( R.id.imageview_placeholder );
-        framelayoutTitle = (FrameLayout)findViewById( R.id.framelayout_title );
-        linearlayoutTitle = (LinearLayout)findViewById( R.id.linearlayout_title );
-        toolbar = (Toolbar)findViewById( R.id.toolbar );
-        textviewTitle = (TextView)findViewById( R.id.textview_title );
-        avatar = (SimpleDraweeView)findViewById(R.id.avatar);
+        appbar = findViewById( R.id.appbar );
+        collapsing = findViewById( R.id.collapsing );
+        coverImage = findViewById( R.id.imageview_placeholder );
+        framelayoutTitle = findViewById( R.id.framelayout_title );
+        linearlayoutTitle = findViewById( R.id.linearlayout_title );
+        toolbar = findViewById( R.id.toolbar );
+        textviewTitle = findViewById( R.id.textview_title );
+        avatar = findViewById(R.id.avatar);
     }
 
 
